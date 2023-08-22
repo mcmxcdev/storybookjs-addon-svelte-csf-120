@@ -1,0 +1,25 @@
+.DS_Store
+node_modules
+/.svelte-kit
+/package
+.env.local
+.env.*.local
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+/build
+build
+build-storybook.log
+coverage
+
+# ESLint
+.eslintcache
+
+# Vercel
+.vercel
+
+# Sentry
+.sentryclirc
+
+# storybook
+storybook-static

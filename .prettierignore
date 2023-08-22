@@ -1,0 +1,19 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env.*
+!.env.example
+src/gen/*
+storybook-static
+vite.config.ts.timestamp-*
+coverage
+
+# Vercel
+.vercel
+
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
